@@ -36,19 +36,3 @@ class _SplashPageState extends State<SplashPage> {
         ));
   }
 }
-
-class SecondScreen extends StatelessWidget {
-  const SecondScreen({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text("GeeksForGeeks")),
-      body: Center(
-          child: Text(
-        "Home page",
-        textScaleFactor: 2,
-      )),
-    );
-  }
-}

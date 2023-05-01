@@ -3,7 +3,8 @@
 import 'package:flutter/material.dart';
 import 'Auth/splash.dart';
 
-void main() => runApp(const MyApp());
+void main() => runApp(
+    const MaterialApp(debugShowCheckedModeBanner: false, home: SplashPage()));
 
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
@@ -22,10 +23,7 @@ class _MyAppState extends State<MyApp> {
         body: Container(
           height: 100,
           width: 100,
-          color: Color.fromRGBO(56, 187, 133, 1),
-          child: Center(
-            child: Text('data'),
-          ),
+          child: Text('data'),
         ),
       ),
     );

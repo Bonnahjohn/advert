@@ -2,7 +2,7 @@
     package="com.example.advert">
      <uses-permission android:name="android.permission.INTERNET" />
    <application
-        android:label="advert"
+        android:label="Chatify"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
